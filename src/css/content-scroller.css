@@ -1,0 +1,62 @@
+body {
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.menu-wrapper {
+    position: relative;
+	overflow-x: none;
+    overflow-y: none;
+    background-color:#f2f2f2;
+    padding:1em;
+}
+
+.menu	{
+	white-space: nowrap;
+	overflow-x: hidden;
+	overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.item {
+    width:300px;
+    margin:10px;
+    display: inline-block;
+    vertical-align:top;
+
+}
+
+
+.buffer {
+    width:15px;
+    display: inline-block;
+}
+
+.paddle {
+    height:40px;
+    color: #666;
+    opacity: .8;
+    border:0;
+	position: absolute;
+	top: 35%;
+    width: 2em;
+    margin:20;
+}
+
+.left-paddle {
+	left: 0;
+}
+.right-paddle {
+	right: 0;
+}
+.hidden {
+	display: none;
+}
+
+.print {
+	margin: auto;
+	max-width: 500px;
+}
